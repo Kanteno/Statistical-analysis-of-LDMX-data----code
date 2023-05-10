@@ -9,6 +9,6 @@ HistPLCalculatorF.C dose a profiling and returns the most likley value for the s
 The HistMCMC.C uses Baysian posteriors to calculate a prbability posterior for the signal strength again the signal provided correspond to \mu =1.
 The code HistHypoF.C contains two methods for calculating CLs but they do not work properly and its CLb, CLs+b and CLs outputs can not be trusted to be accurate.
 
-NOTE: The codes HistPLCalculatorF.C, HistMCMC.C, and HistHypoF.C where mostly taken from:
+NOTE: The codes HistPLCalculatorF.C, HistMCMC.C, and HistHypoF.C where mostly taken from with only minor changes:
 https://twiki.cern.ch/twiki/bin/view/RooStats/RooStatsTutorialsJune2013#Exercise_6_Compute_the_significa.
-With minor changes. Hence creadit goes to LorenzoMoneta.
+Hence creadit for them goes to LorenzoMoneta.
